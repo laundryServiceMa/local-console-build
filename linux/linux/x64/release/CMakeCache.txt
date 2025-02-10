@@ -242,6 +242,15 @@ PKG_CONFIG_ARGN:STRING=
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Value Computed by CMake
+dynamic_color_BINARY_DIR:STATIC=/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/dynamic_color
+
+//Value Computed by CMake
+dynamic_color_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+dynamic_color_SOURCE_DIR:STATIC=/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/dynamic_color/linux
+
+//Value Computed by CMake
 flserial_BINARY_DIR:STATIC=/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial
 
 //Value Computed by CMake
@@ -270,15 +279,6 @@ flutter_libserialport_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 flutter_libserialport_SOURCE_DIR:STATIC=/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux
-
-//Value Computed by CMake
-isar_flutter_libs_BINARY_DIR:STATIC=/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/isar_flutter_libs
-
-//Value Computed by CMake
-isar_flutter_libs_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-isar_flutter_libs_SOURCE_DIR:STATIC=/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/isar_flutter_libs/linux
 
 //Path to a library.
 pkgcfg_lib_GIO_gio-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgio-2.0.so
@@ -365,7 +365,7 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=31
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/local/bin/cmake
 //Path to cpack program executable.
