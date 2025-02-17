@@ -18,6 +18,13 @@
 /home/debian/Downloads/local-console/build/linux/arm64/release/runner/CMakeFiles/rebuild_cache.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/runner/CMakeFiles/edit_cache.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/runner/CMakeFiles/local_console.dir
+/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/CMakeFiles/install/strip.dir
+/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/CMakeFiles/install/local.dir
+/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/CMakeFiles/install.dir
+/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/CMakeFiles/list_install_components.dir
+/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/CMakeFiles/rebuild_cache.dir
+/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/CMakeFiles/edit_cache.dir
+/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/CMakeFiles/dynamic_color_plugin.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/CMakeFiles/install/strip.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/CMakeFiles/install/local.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/CMakeFiles/install.dir
@@ -32,13 +39,6 @@
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/libserialport/CMakeFiles/rebuild_cache.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/libserialport/CMakeFiles/edit_cache.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/libserialport/CMakeFiles/serialport.dir
-/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/isar_flutter_libs/CMakeFiles/install/strip.dir
-/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/isar_flutter_libs/CMakeFiles/install/local.dir
-/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/isar_flutter_libs/CMakeFiles/install.dir
-/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/isar_flutter_libs/CMakeFiles/list_install_components.dir
-/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/isar_flutter_libs/CMakeFiles/rebuild_cache.dir
-/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/isar_flutter_libs/CMakeFiles/edit_cache.dir
-/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/isar_flutter_libs/CMakeFiles/isar_flutter_libs_plugin.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flserial/CMakeFiles/install/strip.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flserial/CMakeFiles/install/local.dir
 /home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flserial/CMakeFiles/install.dir
