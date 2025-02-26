@@ -1,6 +1,7 @@
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/icudtl.dat
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libflutter_linux_gtk.so
+/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libaudioplayers_linux_plugin.so
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libdynamic_color_plugin.so
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libflutter_libserialport_plugin.so
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libserialport.so
@@ -10,6 +11,8 @@
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/AssetManifest.json
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/NOTICES.Z
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/version.json
+/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/assets/sound/smooth-completed-notify-274735.mp3
+/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/assets/sound/notification-off-269282.mp3
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/assets/animations/Animation%20-%201736896055282.json
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/assets/images/vecteezy_ai-generated-eco-chic-laundry-embracing-organic-detergents_36090011.jpg
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/FontManifest.json
@@ -282,5 +285,7 @@
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/packages/country_flags/res/si/un.si
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/packages/glass/images/noise.png
+/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/packages/shared_laundry/assets/sound/smooth-completed-notify-274735.mp3
+/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/packages/shared_laundry/assets/sound/notification-off-269282.mp3
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets/packages/iconsax_flutter/fonts/FlutterIconsax.ttf
 /home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libapp.so
