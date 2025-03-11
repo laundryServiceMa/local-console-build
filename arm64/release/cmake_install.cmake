@@ -1,8 +1,8 @@
-# Install script for directory: /home/debian/Downloads/local-console/linux
+# Install script for directory: /home/debian/Desktop/local-console/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,172 +44,172 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/")
+  file(REMOVE_RECURSE "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console")
+  if(EXISTS "$ENV{DESTDIR}/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/local_console" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/local_console")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console"
+         FILE "$ENV{DESTDIR}/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/local_console"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/local_console")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle" TYPE EXECUTABLE FILES "/home/debian/Downloads/local-console/build/linux/arm64/release/intermediates_do_not_run/local_console")
-  if(EXISTS "$ENV{DESTDIR}/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle" TYPE EXECUTABLE FILES "/home/debian/Desktop/local-console/build/linux/arm64/release/intermediates_do_not_run/local_console")
+  if(EXISTS "$ENV{DESTDIR}/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/local_console" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/local_console")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console"
-         OLD_RPATH "/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/audioplayers_linux:/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color:/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport:/home/debian/Downloads/local-console/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/local_console"
+         OLD_RPATH "/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/audioplayers_linux:/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/dynamic_color:/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/flutter_libserialport:/home/debian/Desktop/local-console/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/local_console")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/local_console")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/icudtl.dat")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data" TYPE FILE FILES "/home/debian/Downloads/local-console/linux/flutter/ephemeral/icudtl.dat")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/data" TYPE FILE FILES "/home/debian/Desktop/local-console/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libflutter_linux_gtk.so")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Downloads/local-console/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Desktop/local-console/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libaudioplayers_linux_plugin.so")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib/libaudioplayers_linux_plugin.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/audioplayers_linux/libaudioplayers_linux_plugin.so")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/audioplayers_linux/libaudioplayers_linux_plugin.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libdynamic_color_plugin.so")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib/libdynamic_color_plugin.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/libdynamic_color_plugin.so")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/dynamic_color/libdynamic_color_plugin.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libflutter_libserialport_plugin.so")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib/libflutter_libserialport_plugin.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/libflutter_libserialport_plugin.so")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/flutter_libserialport/libflutter_libserialport_plugin.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libserialport.so")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib/libserialport.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/libserialport/libserialport.so")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/flutter_libserialport/libserialport/libserialport.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libflserial.so")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib/libflserial.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flserial/shared/libflserial.so")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/flserial/shared/libflserial.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib/")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib" TYPE DIRECTORY FILES "/home/debian/Downloads/local-console/build/native_assets/linux/")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib" TYPE DIRECTORY FILES "/home/debian/Desktop/local-console/build/native_assets/linux/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/data/flutter_assets")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data/flutter_assets")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/data" TYPE DIRECTORY FILES "/home/debian/Downloads/local-console/build//flutter_assets")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/data" TYPE DIRECTORY FILES "/home/debian/Desktop/local-console/build//flutter_assets")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib/libapp.so")
+   "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib/libapp.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Downloads/local-console/build/lib/libapp.so")
+file(INSTALL DESTINATION "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle/lib" TYPE FILE FILES "/home/debian/Desktop/local-console/build/lib/libapp.so")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/debian/Downloads/local-console/build/linux/arm64/release/flutter/cmake_install.cmake")
-  include("/home/debian/Downloads/local-console/build/linux/arm64/release/runner/cmake_install.cmake")
-  include("/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/audioplayers_linux/cmake_install.cmake")
-  include("/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/dynamic_color/cmake_install.cmake")
-  include("/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flutter_libserialport/cmake_install.cmake")
-  include("/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flserial/cmake_install.cmake")
+  include("/home/debian/Desktop/local-console/build/linux/arm64/release/flutter/cmake_install.cmake")
+  include("/home/debian/Desktop/local-console/build/linux/arm64/release/runner/cmake_install.cmake")
+  include("/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/audioplayers_linux/cmake_install.cmake")
+  include("/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/dynamic_color/cmake_install.cmake")
+  include("/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/flutter_libserialport/cmake_install.cmake")
+  include("/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/flserial/cmake_install.cmake")
 
 endif()
 
@@ -221,5 +221,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/debian/Downloads/local-console/build/linux/arm64/release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/debian/Desktop/local-console/build/linux/arm64/release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

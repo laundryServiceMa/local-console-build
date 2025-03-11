@@ -1,8 +1,8 @@
-# Install script for directory: /home/debian/Downloads/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/linux
+# Install script for directory: /home/debian/Desktop/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/debian/Downloads/local-console/build/linux/arm64/release/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/debian/Desktop/local-console/build/linux/arm64/release/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/debian/Downloads/local-console/build/linux/arm64/release/plugins/flserial/shared/cmake_install.cmake")
+  include("/home/debian/Desktop/local-console/build/linux/arm64/release/plugins/flserial/shared/cmake_install.cmake")
 
 endif()
 

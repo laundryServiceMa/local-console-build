@@ -147,7 +147,7 @@ rule CXX_SHARED_LIBRARY_LINKER__flserial_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/debian/Downloads/local-console/linux -B/home/debian/Downloads/local-console/build/linux/arm64/release
+  command = /usr/bin/cmake --regenerate-during-build -S/home/debian/Desktop/local-console/linux -B/home/debian/Desktop/local-console/build/linux/arm64/release
   description = Re-running CMake...
   generator = 1
 
