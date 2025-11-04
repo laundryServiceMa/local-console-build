@@ -7,7 +7,7 @@ This repository hosts the build artifacts and download page for the Local Consol
 Visit our [download page](https://laundryservicema.github.io/local-console-build/) to get the latest version for your platform:
 
 - **macOS** - macOS application bundle (66 MB)
-- **Linux** - Linux x86_64 build (12 MB)  
+- **Linux** - Linux x86_64 build (11 MB)  
 - **ARM64/Linux** - Linux ARM64 build (14 MB)
 
 ## 🚀 Version
