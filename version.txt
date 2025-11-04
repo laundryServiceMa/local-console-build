@@ -41,7 +41,7 @@
       ],
       "date": "2025-01-10",
       "mandatory": true,
-      "url": "https://storage.googleapis.com/laundryservice1-3a280.appspot.com/AppBundle/local_console.app.zip"
+      "url": "https://storage.googleapis.com/laundryservice1-3a280.appspot.com/AppBundle/local_console.app.zip",
       "platform": "macos"
     }
   ]
