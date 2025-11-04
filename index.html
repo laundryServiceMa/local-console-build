@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Console - Download</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+
+        .version {
+            display: inline-block;
+            background: #f0f0f0;
+            color: #666;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+
+        .download-section {
+            margin-top: 30px;
+        }
+
+        .download-button {
+            display: block;
+            width: 100%;
+            padding: 18px 30px;
+            margin: 15px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .download-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .download-button:active {
+            transform: translateY(0);
+        }
+
+        .download-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: left 0.5s ease;
+        }
+
+        .download-button:hover::before {
+            left: 100%;
+        }
+
+        .platform-icon {
+            font-size: 1.3em;
+            margin-right: 10px;
+        }
+
+        .file-size {
+            font-size: 0.85em;
+            opacity: 0.8;
+            margin-left: 10px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .download-button {
+                font-size: 1em;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧺 Local Console</h1>
+        <p class="subtitle">Download the application for your platform</p>
+        <div class="version">Version 1.0.0+1</div>
+
+        <div class="download-section">
+            <a href="macos.zip" class="download-button" download>
+                <span class="platform-icon">🍎</span>
+                Download for macOS
+                <span class="file-size">(66 MB)</span>
+            </a>
+
+            <a href="linux.zip" class="download-button" download>
+                <span class="platform-icon">🐧</span>
+                Download for Linux
+                <span class="file-size">(12 MB)</span>
+            </a>
+
+            <a href="arm64.zip" class="download-button" download>
+                <span class="platform-icon">💻</span>
+                Download for ARM64/Linux
+                <span class="file-size">(14 MB)</span>
+            </a>
+        </div>
+
+        <footer>
+            <p>Need help? Visit our <a href="https://github.com/laundryServiceMa/local-console-build" target="_blank">GitHub repository</a></p>
+        </footer>
+    </div>
+</body>
+</html>
