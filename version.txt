@@ -41,7 +41,7 @@
       ],
       "date": "2025-01-10",
       "mandatory": true,
-      "url": "https://www.yourwebsite.com/archive/desktop_updater/0.1.6%2B7-macos",
+      "url": "https://firebasestorage.googleapis.com/v0/b/laundryservice1-3a280.appspot.com/o/AppBundle%2Flocal_console.app.zip?alt=media&token=3623389c-1466-470f-9840-872a01c8b4bc,
       "platform": "macos"
     }
   ]
