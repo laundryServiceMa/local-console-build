@@ -14,7 +14,7 @@
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/assets/icons/coins.svg
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/assets/sound/notification-off-269282.mp3
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/assets/sound/smooth-completed-notify-274735.mp3
-/home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/assets/images/vecteezy_ai-generated-eco-chic-laundry-embracing-organic-detergents_36090011.jpg
+/home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/assets/images/laundry_background.jpg
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/assets/animations/Loader%20cat.json
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/assets/animations/Congratulations.json
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/assets/animations/Info%20Icon.json
