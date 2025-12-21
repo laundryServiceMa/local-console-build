@@ -1,0 +1,6 @@
+D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flserial\src\native_libs\src\serial.cpp;D:\a\local-console\local-console\build\windows\x64\plugins\flserial\shared\flserial.dir\Release\serial.obj
+D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flserial\src\native_libs\src\tinycthread.c;D:\a\local-console\local-console\build\windows\x64\plugins\flserial\shared\flserial.dir\Release\tinycthread.obj
+D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flserial\src\native_libs\src\ringbuffer.c;D:\a\local-console\local-console\build\windows\x64\plugins\flserial\shared\flserial.dir\Release\ringbuffer.obj
+D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flserial\src\flserial.cpp;D:\a\local-console\local-console\build\windows\x64\plugins\flserial\shared\flserial.dir\Release\flserial.obj
+D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flserial\src\native_libs\src\impl\win.cpp;D:\a\local-console\local-console\build\windows\x64\plugins\flserial\shared\flserial.dir\Release\win.obj
+D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flserial\src\native_libs\src\impl\list_ports\list_ports_win.cpp;D:\a\local-console\local-console\build\windows\x64\plugins\flserial\shared\flserial.dir\Release\list_ports_win.obj
