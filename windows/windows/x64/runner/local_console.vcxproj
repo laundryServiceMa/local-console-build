@@ -71,7 +71,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -94,10 +94,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.2.1+3\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=2;FLUTTER_VERSION_PATCH=1;FLUTTER_VERSION_BUILD=3;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -105,7 +105,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\flutter\Debug\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\audioplayers_windows\Debug\audioplayers_windows_plugin.lib;..\plugins\desktop_updater\Debug\desktop_updater_plugin.lib;..\plugins\flutter_libserialport\Debug\flutter_libserialport_plugin.lib;D:\a\local-console\local-console\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\flutter\Debug\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\audioplayers_windows\Debug\audioplayers_windows_plugin.lib;..\plugins\desktop_updater\Debug\desktop_updater_plugin.lib;..\plugins\flutter_libserialport\Debug\flutter_libserialport_plugin.lib;..\plugins\screen_retriever_windows\Debug\screen_retriever_windows_plugin.lib;..\plugins\window_manager\Debug\window_manager_plugin.lib;D:\a\local-console\local-console\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -123,7 +123,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
@@ -147,10 +147,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.2.1+3\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=2;FLUTTER_VERSION_PATCH=1;FLUTTER_VERSION_BUILD=3;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -158,7 +158,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\flutter\Profile\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\audioplayers_windows\Profile\audioplayers_windows_plugin.lib;..\plugins\desktop_updater\Profile\desktop_updater_plugin.lib;..\plugins\flutter_libserialport\Profile\flutter_libserialport_plugin.lib;D:\a\local-console\local-console\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\flutter\Profile\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\audioplayers_windows\Profile\audioplayers_windows_plugin.lib;..\plugins\desktop_updater\Profile\desktop_updater_plugin.lib;..\plugins\flutter_libserialport\Profile\flutter_libserialport_plugin.lib;..\plugins\screen_retriever_windows\Profile\screen_retriever_windows_plugin.lib;..\plugins\window_manager\Profile\window_manager_plugin.lib;D:\a\local-console\local-console\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -176,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
@@ -200,10 +200,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.2.1+3\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=2;FLUTTER_VERSION_PATCH=1;FLUTTER_VERSION_BUILD=3;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\local-console\local-console\windows;D:\a\local-console\local-console\windows\flutter\ephemeral;D:\a\local-console\local-console\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\desktop_updater\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\flutter_libserialport\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever_windows\windows\include;D:\a\local-console\local-console\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -211,7 +211,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\flutter\Release\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\audioplayers_windows\Release\audioplayers_windows_plugin.lib;..\plugins\desktop_updater\Release\desktop_updater_plugin.lib;..\plugins\flutter_libserialport\Release\flutter_libserialport_plugin.lib;D:\a\local-console\local-console\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\flutter\Release\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\audioplayers_windows\Release\audioplayers_windows_plugin.lib;..\plugins\desktop_updater\Release\desktop_updater_plugin.lib;..\plugins\flutter_libserialport\Release\flutter_libserialport_plugin.lib;..\plugins\screen_retriever_windows\Release\screen_retriever_windows_plugin.lib;..\plugins\window_manager\Release\window_manager_plugin.lib;D:\a\local-console\local-console\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -308,6 +308,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="D:\a\local-console\local-console\build\windows\x64\flutter\flutter_wrapper_app.vcxproj">
       <Project>{EF217CB7-F484-3EBD-BB11-9211D3FB76BE}</Project>
       <Name>flutter_wrapper_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\a\local-console\local-console\build\windows\x64\plugins\screen_retriever_windows\screen_retriever_windows_plugin.vcxproj">
+      <Project>{223F1ED4-38CB-3E7D-A857-C7683AD37CA2}</Project>
+      <Name>screen_retriever_windows_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\a\local-console\local-console\build\windows\x64\plugins\window_manager\window_manager_plugin.vcxproj">
+      <Project>{4FA45AAA-9A31-342D-8872-169D19FA13F6}</Project>
+      <Name>window_manager_plugin</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -20,6 +20,12 @@ D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport
 D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/libserialport/CMakeFiles/serialport.dir
 D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/libserialport/CMakeFiles/INSTALL.dir
 D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/libserialport/CMakeFiles/ALL_BUILD.dir
+D:/a/local-console/local-console/build/windows/x64/plugins/screen_retriever_windows/CMakeFiles/screen_retriever_windows_plugin.dir
+D:/a/local-console/local-console/build/windows/x64/plugins/screen_retriever_windows/CMakeFiles/INSTALL.dir
+D:/a/local-console/local-console/build/windows/x64/plugins/screen_retriever_windows/CMakeFiles/ALL_BUILD.dir
+D:/a/local-console/local-console/build/windows/x64/plugins/window_manager/CMakeFiles/window_manager_plugin.dir
+D:/a/local-console/local-console/build/windows/x64/plugins/window_manager/CMakeFiles/INSTALL.dir
+D:/a/local-console/local-console/build/windows/x64/plugins/window_manager/CMakeFiles/ALL_BUILD.dir
 D:/a/local-console/local-console/build/windows/x64/plugins/flserial/CMakeFiles/INSTALL.dir
 D:/a/local-console/local-console/build/windows/x64/plugins/flserial/CMakeFiles/ALL_BUILD.dir
 D:/a/local-console/local-console/build/windows/x64/plugins/flserial/shared/CMakeFiles/flserial.dir

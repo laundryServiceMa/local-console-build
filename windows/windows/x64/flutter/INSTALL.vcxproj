@@ -156,7 +156,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\a\local-console\local-console\build\windows\x64\plugins\flutter_libserialport\libserialport\ALL_BUILD.vcxproj">
+    <ProjectReference Include="D:\a\local-console\local-console\build\windows\x64\plugins\window_manager\ALL_BUILD.vcxproj">
       <Project>{EEC59E3A-5DB4-310F-AF3F-077626689CD3}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

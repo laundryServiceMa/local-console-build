@@ -59,6 +59,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("D:/a/local-console/local-console/build/windows/x64/plugins/screen_retriever_windows/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/a/local-console/local-console/build/windows/x64/plugins/window_manager/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("D:/a/local-console/local-console/build/windows/x64/plugins/flserial/cmake_install.cmake")
 endif()
 
@@ -167,7 +177,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-     "D:/a/local-console/local-console/build/windows/x64/runner/Debug/audioplayers_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/desktop_updater_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/flutter_libserialport_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/serialport.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/flserial.dll")
+     "D:/a/local-console/local-console/build/windows/x64/runner/Debug/audioplayers_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/desktop_updater_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/flutter_libserialport_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/serialport.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/screen_retriever_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/window_manager_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Debug/flserial.dll")
     if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
@@ -179,11 +189,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
       "D:/a/local-console/local-console/build/windows/x64/plugins/desktop_updater/Debug/desktop_updater_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/Debug/flutter_libserialport_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/libserialport/Debug/serialport.dll"
+      "D:/a/local-console/local-console/build/windows/x64/plugins/screen_retriever_windows/Debug/screen_retriever_windows_plugin.dll"
+      "D:/a/local-console/local-console/build/windows/x64/plugins/window_manager/Debug/window_manager_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flserial/shared/Debug/flserial.dll"
       )
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Pp][Rr][Oo][Ff][Ii][Ll][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-     "D:/a/local-console/local-console/build/windows/x64/runner/Profile/audioplayers_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/desktop_updater_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/flutter_libserialport_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/serialport.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/flserial.dll")
+     "D:/a/local-console/local-console/build/windows/x64/runner/Profile/audioplayers_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/desktop_updater_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/flutter_libserialport_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/serialport.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/screen_retriever_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/window_manager_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Profile/flserial.dll")
     if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
@@ -195,11 +207,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
       "D:/a/local-console/local-console/build/windows/x64/plugins/desktop_updater/Profile/desktop_updater_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/Profile/flutter_libserialport_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/libserialport/Profile/serialport.dll"
+      "D:/a/local-console/local-console/build/windows/x64/plugins/screen_retriever_windows/Profile/screen_retriever_windows_plugin.dll"
+      "D:/a/local-console/local-console/build/windows/x64/plugins/window_manager/Profile/window_manager_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flserial/shared/Profile/flserial.dll"
       )
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-     "D:/a/local-console/local-console/build/windows/x64/runner/Release/audioplayers_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/desktop_updater_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/flutter_libserialport_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/serialport.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/flserial.dll")
+     "D:/a/local-console/local-console/build/windows/x64/runner/Release/audioplayers_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/desktop_updater_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/flutter_libserialport_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/serialport.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/screen_retriever_windows_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/window_manager_plugin.dll;D:/a/local-console/local-console/build/windows/x64/runner/Release/flserial.dll")
     if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
       message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
@@ -211,6 +225,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
       "D:/a/local-console/local-console/build/windows/x64/plugins/desktop_updater/Release/desktop_updater_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/Release/flutter_libserialport_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flutter_libserialport/libserialport/Release/serialport.dll"
+      "D:/a/local-console/local-console/build/windows/x64/plugins/screen_retriever_windows/Release/screen_retriever_windows_plugin.dll"
+      "D:/a/local-console/local-console/build/windows/x64/plugins/window_manager/Release/window_manager_plugin.dll"
       "D:/a/local-console/local-console/build/windows/x64/plugins/flserial/shared/Release/flserial.dll"
       )
   endif()

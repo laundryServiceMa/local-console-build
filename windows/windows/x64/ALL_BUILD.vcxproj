@@ -169,9 +169,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{2B794EFD-A928-326E-B8A1-C00EE4BE005E}</Project>
       <Name>local_console</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\a\local-console\local-console\build\windows\x64\plugins\screen_retriever_windows\screen_retriever_windows_plugin.vcxproj">
+      <Project>{223F1ED4-38CB-3E7D-A857-C7683AD37CA2}</Project>
+      <Name>screen_retriever_windows_plugin</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\a\local-console\local-console\build\windows\x64\plugins\flutter_libserialport\libserialport\serialport.vcxproj">
       <Project>{BF3B3B4E-431B-349D-822D-0F44899B8A33}</Project>
       <Name>serialport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\a\local-console\local-console\build\windows\x64\plugins\window_manager\window_manager_plugin.vcxproj">
+      <Project>{4FA45AAA-9A31-342D-8872-169D19FA13F6}</Project>
+      <Name>window_manager_plugin</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
