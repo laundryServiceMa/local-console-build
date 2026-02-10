@@ -5,6 +5,8 @@
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib/libdesktop_updater_plugin.so
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib/libflutter_libserialport_plugin.so
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib/libserialport.so
+/home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib/libscreen_retriever_linux_plugin.so
+/home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib/libwindow_manager_plugin.so
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib/libflserial.so
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/NOTICES.Z
 /home/runner/work/local-console/local-console/build/linux/x64/release/bundle/data/flutter_assets/shaders/stretch_effect.frag
