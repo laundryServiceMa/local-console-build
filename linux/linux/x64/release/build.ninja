@@ -194,7 +194,7 @@ build flutter/CMakeFiles/flutter_assemble | ${cmake_ninja_workdir}flutter/CMakeF
 # Custom command for /home/runner/work/local-console/local-console/linux/flutter/ephemeral/libflutter_linux_gtk.so
 
 build /home/runner/work/local-console/local-console/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_ | ${cmake_ninja_workdir}flutter/_phony_: CUSTOM_COMMAND
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/flutter && /usr/local/bin/cmake -E env FLUTTER_ROOT=/opt/hostedtoolcache/flutter/stable-3.38.3-x64 PROJECT_DIR=/home/runner/work/local-console/local-console DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzguMw==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MTkwNzRkMTJmNw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTNlNjU4NzI1ZA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC4x DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=/home/runner/work/local-console/local-console/.dart_tool/package_config.json FLUTTER_TARGET=lib/main.dart /opt/hostedtoolcache/flutter/stable-3.38.3-x64/packages/flutter_tools/bin/tool_backend.sh linux-x64 Release
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/flutter && /usr/local/bin/cmake -E env FLUTTER_ROOT=/opt/hostedtoolcache/flutter/stable-3.44.7-x64/flutter PROJECT_DIR=/home/runner/work/local-console/local-console DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuNDQuNw==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ODRmYzVjYmIyMg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NjljOGM2MTc5Mg==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMi4y DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=/home/runner/work/local-console/local-console/.dart_tool/package_config.json FLUTTER_TARGET=lib/main.dart /opt/hostedtoolcache/flutter/stable-3.44.7-x64/flutter/packages/flutter_tools/bin/tool_backend.sh linux-x64 Release
   DESC = Generating /home/runner/work/local-console/local-console/linux/flutter/ephemeral/libflutter_linux_gtk.so, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_engine.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_method_call.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_method_response.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_value.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/fl_view.h, /home/runner/work/local-console/local-console/linux/flutter/ephemeral/flutter_linux/flutter_linux.h, _phony_
   restat = 1
 
@@ -1054,229 +1054,199 @@ build plugins/window_manager/install/strip: phony plugins/window_manager/CMakeFi
 #############################################
 # Utility command for edit_cache
 
-build plugins/flserial/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial && /usr/local/bin/ccmake -S/home/runner/work/local-console/local-console/linux -B/home/runner/work/local-console/local-console/build/linux/x64/release
+build plugins/jni/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni && /usr/local/bin/ccmake -S/home/runner/work/local-console/local-console/linux -B/home/runner/work/local-console/local-console/build/linux/x64/release
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build plugins/flserial/edit_cache: phony plugins/flserial/CMakeFiles/edit_cache.util
+build plugins/jni/edit_cache: phony plugins/jni/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build plugins/flserial/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial && /usr/local/bin/cmake --regenerate-during-build -S/home/runner/work/local-console/local-console/linux -B/home/runner/work/local-console/local-console/build/linux/x64/release
+build plugins/jni/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni && /usr/local/bin/cmake --regenerate-during-build -S/home/runner/work/local-console/local-console/linux -B/home/runner/work/local-console/local-console/build/linux/x64/release
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build plugins/flserial/rebuild_cache: phony plugins/flserial/CMakeFiles/rebuild_cache.util
+build plugins/jni/rebuild_cache: phony plugins/jni/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build plugins/flserial/list_install_components: phony
+build plugins/jni/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build plugins/flserial/CMakeFiles/install.util: CUSTOM_COMMAND plugins/flserial/all
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial && /usr/local/bin/cmake -P cmake_install.cmake
+build plugins/jni/CMakeFiles/install.util: CUSTOM_COMMAND plugins/jni/all
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni && /usr/local/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
 
-build plugins/flserial/install: phony plugins/flserial/CMakeFiles/install.util
+build plugins/jni/install: phony plugins/jni/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build plugins/flserial/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/flserial/all
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial && /usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+build plugins/jni/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/jni/all
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni && /usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build plugins/flserial/install/local: phony plugins/flserial/CMakeFiles/install/local.util
+build plugins/jni/install/local: phony plugins/jni/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build plugins/flserial/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/flserial/all
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial && /usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+build plugins/jni/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/jni/all
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni && /usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build plugins/flserial/install/strip: phony plugins/flserial/CMakeFiles/install/strip.util
+build plugins/jni/install/strip: phony plugins/jni/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/linux/CMakeLists.txt
+# /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/jni/linux/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
-# Object build statements for SHARED_LIBRARY target flserial
+# Object build statements for SHARED_LIBRARY target jni
 
 
 #############################################
-# Order-only phony target for flserial
+# Order-only phony target for jni
 
-build cmake_object_order_depends_target_flserial: phony || .
+build cmake_object_order_depends_target_jni: phony || .
 
-build plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/serial.cpp.o: CXX_COMPILER__flserial_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/src/serial.cpp || cmake_object_order_depends_target_flserial
-  DEFINES = -DDART_SHARED_LIB -Dflserial_EXPORTS
-  DEP_FILE = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/serial.cpp.o.d
+build plugins/jni/shared/CMakeFiles/jni.dir/dartjni.c.o: C_COMPILER__jni_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/jni/src/dartjni.c || cmake_object_order_depends_target_jni
+  DEFINES = -DDART_SHARED_LIB -Djni_EXPORTS
+  DEP_FILE = plugins/jni/shared/CMakeFiles/jni.dir/dartjni.c.o.d
   FLAGS = -O3 -DNDEBUG -fPIC
-  INCLUDES = -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include/serial
-  OBJECT_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir
-  OBJECT_FILE_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src
-  TARGET_COMPILE_PDB = plugins/flserial/shared/CMakeFiles/flserial.dir/
-  TARGET_PDB = plugins/flserial/shared/libflserial.pdb
+  INCLUDES = -I/usr/lib/jvm/temurin-17-jdk-amd64/include -I/usr/lib/jvm/temurin-17-jdk-amd64/include/linux
+  OBJECT_DIR = plugins/jni/shared/CMakeFiles/jni.dir
+  OBJECT_FILE_DIR = plugins/jni/shared/CMakeFiles/jni.dir
+  TARGET_COMPILE_PDB = plugins/jni/shared/CMakeFiles/jni.dir/
+  TARGET_PDB = plugins/jni/shared/libdartjni.pdb
 
-build plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/tinycthread.c.o: C_COMPILER__flserial_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/src/tinycthread.c || cmake_object_order_depends_target_flserial
-  DEFINES = -DDART_SHARED_LIB -Dflserial_EXPORTS
-  DEP_FILE = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/tinycthread.c.o.d
+build plugins/jni/shared/CMakeFiles/jni.dir/third_party/global_jni_env.c.o: C_COMPILER__jni_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/jni/src/third_party/global_jni_env.c || cmake_object_order_depends_target_jni
+  DEFINES = -DDART_SHARED_LIB -Djni_EXPORTS
+  DEP_FILE = plugins/jni/shared/CMakeFiles/jni.dir/third_party/global_jni_env.c.o.d
   FLAGS = -O3 -DNDEBUG -fPIC
-  INCLUDES = -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include/serial
-  OBJECT_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir
-  OBJECT_FILE_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src
-  TARGET_COMPILE_PDB = plugins/flserial/shared/CMakeFiles/flserial.dir/
-  TARGET_PDB = plugins/flserial/shared/libflserial.pdb
+  INCLUDES = -I/usr/lib/jvm/temurin-17-jdk-amd64/include -I/usr/lib/jvm/temurin-17-jdk-amd64/include/linux
+  OBJECT_DIR = plugins/jni/shared/CMakeFiles/jni.dir
+  OBJECT_FILE_DIR = plugins/jni/shared/CMakeFiles/jni.dir/third_party
+  TARGET_COMPILE_PDB = plugins/jni/shared/CMakeFiles/jni.dir/
+  TARGET_PDB = plugins/jni/shared/libdartjni.pdb
 
-build plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/ringbuffer.c.o: C_COMPILER__flserial_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/src/ringbuffer.c || cmake_object_order_depends_target_flserial
-  DEFINES = -DDART_SHARED_LIB -Dflserial_EXPORTS
-  DEP_FILE = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/ringbuffer.c.o.d
+build plugins/jni/shared/CMakeFiles/jni.dir/include/dart_api_dl.c.o: C_COMPILER__jni_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/jni/src/include/dart_api_dl.c || cmake_object_order_depends_target_jni
+  DEFINES = -DDART_SHARED_LIB -Djni_EXPORTS
+  DEP_FILE = plugins/jni/shared/CMakeFiles/jni.dir/include/dart_api_dl.c.o.d
   FLAGS = -O3 -DNDEBUG -fPIC
-  INCLUDES = -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include/serial
-  OBJECT_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir
-  OBJECT_FILE_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src
-  TARGET_COMPILE_PDB = plugins/flserial/shared/CMakeFiles/flserial.dir/
-  TARGET_PDB = plugins/flserial/shared/libflserial.pdb
-
-build plugins/flserial/shared/CMakeFiles/flserial.dir/flserial.cpp.o: CXX_COMPILER__flserial_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/flserial.cpp || cmake_object_order_depends_target_flserial
-  DEFINES = -DDART_SHARED_LIB -Dflserial_EXPORTS
-  DEP_FILE = plugins/flserial/shared/CMakeFiles/flserial.dir/flserial.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC
-  INCLUDES = -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include/serial
-  OBJECT_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir
-  OBJECT_FILE_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir
-  TARGET_COMPILE_PDB = plugins/flserial/shared/CMakeFiles/flserial.dir/
-  TARGET_PDB = plugins/flserial/shared/libflserial.pdb
-
-build plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/impl/unix.cpp.o: CXX_COMPILER__flserial_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/src/impl/unix.cpp || cmake_object_order_depends_target_flserial
-  DEFINES = -DDART_SHARED_LIB -Dflserial_EXPORTS
-  DEP_FILE = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/impl/unix.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC
-  INCLUDES = -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include/serial
-  OBJECT_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir
-  OBJECT_FILE_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/impl
-  TARGET_COMPILE_PDB = plugins/flserial/shared/CMakeFiles/flserial.dir/
-  TARGET_PDB = plugins/flserial/shared/libflserial.pdb
-
-build plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/impl/list_ports/list_ports_linux.cpp.o: CXX_COMPILER__flserial_unscanned_Release /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/src/impl/list_ports/list_ports_linux.cpp || cmake_object_order_depends_target_flserial
-  DEFINES = -DDART_SHARED_LIB -Dflserial_EXPORTS
-  DEP_FILE = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/impl/list_ports/list_ports_linux.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC
-  INCLUDES = -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include -I/home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/native_libs/include/serial
-  OBJECT_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir
-  OBJECT_FILE_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/impl/list_ports
-  TARGET_COMPILE_PDB = plugins/flserial/shared/CMakeFiles/flserial.dir/
-  TARGET_PDB = plugins/flserial/shared/libflserial.pdb
+  INCLUDES = -I/usr/lib/jvm/temurin-17-jdk-amd64/include -I/usr/lib/jvm/temurin-17-jdk-amd64/include/linux
+  OBJECT_DIR = plugins/jni/shared/CMakeFiles/jni.dir
+  OBJECT_FILE_DIR = plugins/jni/shared/CMakeFiles/jni.dir/include
+  TARGET_COMPILE_PDB = plugins/jni/shared/CMakeFiles/jni.dir/
+  TARGET_PDB = plugins/jni/shared/libdartjni.pdb
 
 
 # =============================================================================
-# Link build statements for SHARED_LIBRARY target flserial
+# Link build statements for SHARED_LIBRARY target jni
 
 
 #############################################
-# Link the shared library plugins/flserial/shared/libflserial.so
+# Link the shared library plugins/jni/shared/libdartjni.so
 
-build plugins/flserial/shared/libflserial.so: CXX_SHARED_LIBRARY_LINKER__flserial_Release plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/serial.cpp.o plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/tinycthread.c.o plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/ringbuffer.c.o plugins/flserial/shared/CMakeFiles/flserial.dir/flserial.cpp.o plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/impl/unix.cpp.o plugins/flserial/shared/CMakeFiles/flserial.dir/native_libs/src/impl/list_ports/list_ports_linux.cpp.o | /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/flserial.def
-  DEP_FILE = plugins/flserial/shared/CMakeFiles/flserial.dir/link.d
+build plugins/jni/shared/libdartjni.so: C_SHARED_LIBRARY_LINKER__jni_Release plugins/jni/shared/CMakeFiles/jni.dir/dartjni.c.o plugins/jni/shared/CMakeFiles/jni.dir/third_party/global_jni_env.c.o plugins/jni/shared/CMakeFiles/jni.dir/include/dart_api_dl.c.o | /usr/lib/jvm/temurin-17-jdk-amd64/lib/server/libjvm.so
+  DEP_FILE = plugins/jni/shared/CMakeFiles/jni.dir/link.d
   LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
-  LINK_FLAGS = -Xlinker --dependency-file=plugins/flserial/shared/CMakeFiles/flserial.dir/link.d
-  LINK_LIBRARIES = -lrt  -lpthread
-  OBJECT_DIR = plugins/flserial/shared/CMakeFiles/flserial.dir
+  LINK_FLAGS = -Xlinker --dependency-file=plugins/jni/shared/CMakeFiles/jni.dir/link.d
+  LINK_LIBRARIES = -Wl,-rpath,/usr/lib/jvm/temurin-17-jdk-amd64/lib/server  /usr/lib/jvm/temurin-17-jdk-amd64/lib/server/libjvm.so
+  OBJECT_DIR = plugins/jni/shared/CMakeFiles/jni.dir
   POST_BUILD = :
   PRE_LINK = :
-  SONAME = libflserial.so
+  SONAME = libdartjni.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = plugins/flserial/shared/CMakeFiles/flserial.dir/
-  TARGET_FILE = plugins/flserial/shared/libflserial.so
-  TARGET_PDB = plugins/flserial/shared/libflserial.pdb
+  TARGET_COMPILE_PDB = plugins/jni/shared/CMakeFiles/jni.dir/
+  TARGET_FILE = plugins/jni/shared/libdartjni.so
+  TARGET_PDB = plugins/jni/shared/libdartjni.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
-build plugins/flserial/shared/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial/shared && /usr/local/bin/ccmake -S/home/runner/work/local-console/local-console/linux -B/home/runner/work/local-console/local-console/build/linux/x64/release
+build plugins/jni/shared/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni/shared && /usr/local/bin/ccmake -S/home/runner/work/local-console/local-console/linux -B/home/runner/work/local-console/local-console/build/linux/x64/release
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build plugins/flserial/shared/edit_cache: phony plugins/flserial/shared/CMakeFiles/edit_cache.util
+build plugins/jni/shared/edit_cache: phony plugins/jni/shared/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build plugins/flserial/shared/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial/shared && /usr/local/bin/cmake --regenerate-during-build -S/home/runner/work/local-console/local-console/linux -B/home/runner/work/local-console/local-console/build/linux/x64/release
+build plugins/jni/shared/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni/shared && /usr/local/bin/cmake --regenerate-during-build -S/home/runner/work/local-console/local-console/linux -B/home/runner/work/local-console/local-console/build/linux/x64/release
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build plugins/flserial/shared/rebuild_cache: phony plugins/flserial/shared/CMakeFiles/rebuild_cache.util
+build plugins/jni/shared/rebuild_cache: phony plugins/jni/shared/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build plugins/flserial/shared/list_install_components: phony
+build plugins/jni/shared/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build plugins/flserial/shared/CMakeFiles/install.util: CUSTOM_COMMAND plugins/flserial/shared/all
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial/shared && /usr/local/bin/cmake -P cmake_install.cmake
+build plugins/jni/shared/CMakeFiles/install.util: CUSTOM_COMMAND plugins/jni/shared/all
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni/shared && /usr/local/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
 
-build plugins/flserial/shared/install: phony plugins/flserial/shared/CMakeFiles/install.util
+build plugins/jni/shared/install: phony plugins/jni/shared/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build plugins/flserial/shared/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/flserial/shared/all
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial/shared && /usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+build plugins/jni/shared/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/jni/shared/all
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni/shared && /usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build plugins/flserial/shared/install/local: phony plugins/flserial/shared/CMakeFiles/install/local.util
+build plugins/jni/shared/install/local: phony plugins/jni/shared/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build plugins/flserial/shared/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/flserial/shared/all
-  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial/shared && /usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+build plugins/jni/shared/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/jni/shared/all
+  COMMAND = cd /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni/shared && /usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build plugins/flserial/shared/install/strip: phony plugins/flserial/shared/CMakeFiles/install/strip.util
+build plugins/jni/shared/install/strip: phony plugins/jni/shared/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Target aliases.
@@ -1285,17 +1255,17 @@ build audioplayers_linux_plugin: phony plugins/audioplayers_linux/libaudioplayer
 
 build desktop_updater_plugin: phony plugins/desktop_updater/libdesktop_updater_plugin.so
 
-build flserial: phony plugins/flserial/shared/libflserial.so
-
 build flutter_assemble: phony flutter/flutter_assemble
 
 build flutter_libserialport_plugin: phony plugins/flutter_libserialport/libflutter_libserialport_plugin.so
 
+build jni: phony plugins/jni/shared/libdartjni.so
+
 build libaudioplayers_linux_plugin.so: phony plugins/audioplayers_linux/libaudioplayers_linux_plugin.so
 
-build libdesktop_updater_plugin.so: phony plugins/desktop_updater/libdesktop_updater_plugin.so
+build libdartjni.so: phony plugins/jni/shared/libdartjni.so
 
-build libflserial.so: phony plugins/flserial/shared/libflserial.so
+build libdesktop_updater_plugin.so: phony plugins/desktop_updater/libdesktop_updater_plugin.so
 
 build libflutter_libserialport_plugin.so: phony plugins/flutter_libserialport/libflutter_libserialport_plugin.so
 
@@ -1321,7 +1291,7 @@ build window_manager_plugin: phony plugins/window_manager/libwindow_manager_plug
 #############################################
 # Folder: /home/runner/work/local-console/local-console/build/linux/x64/release
 
-build all: phony flutter/all runner/all plugins/audioplayers_linux/all plugins/desktop_updater/all plugins/flutter_libserialport/all plugins/screen_retriever_linux/all plugins/window_manager/all plugins/flserial/all
+build all: phony flutter/all runner/all plugins/audioplayers_linux/all plugins/desktop_updater/all plugins/flutter_libserialport/all plugins/screen_retriever_linux/all plugins/window_manager/all plugins/jni/all
 
 # =============================================================================
 
@@ -1347,20 +1317,6 @@ build plugins/desktop_updater/all: phony plugins/desktop_updater/libdesktop_upda
 # =============================================================================
 
 #############################################
-# Folder: /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial
-
-build plugins/flserial/all: phony plugins/flserial/shared/all
-
-# =============================================================================
-
-#############################################
-# Folder: /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial/shared
-
-build plugins/flserial/shared/all: phony plugins/flserial/shared/libflserial.so
-
-# =============================================================================
-
-#############################################
 # Folder: /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flutter_libserialport
 
 build plugins/flutter_libserialport/all: phony plugins/flutter_libserialport/libflutter_libserialport_plugin.so plugins/flutter_libserialport/libserialport/all
@@ -1371,6 +1327,20 @@ build plugins/flutter_libserialport/all: phony plugins/flutter_libserialport/lib
 # Folder: /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flutter_libserialport/libserialport
 
 build plugins/flutter_libserialport/libserialport/all: phony plugins/flutter_libserialport/libserialport/libserialport.so
+
+# =============================================================================
+
+#############################################
+# Folder: /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni
+
+build plugins/jni/all: phony plugins/jni/shared/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni/shared
+
+build plugins/jni/shared/all: phony plugins/jni/shared/libdartjni.so
 
 # =============================================================================
 
@@ -1400,14 +1370,14 @@ build runner/all: phony intermediates_do_not_run/local_console
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/runner/work/local-console/local-console/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/audioplayers_linux/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/desktop_updater/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux/libserialport/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever_linux/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/generated_config.cmake /home/runner/work/local-console/local-console/linux/flutter/generated_plugins.cmake /home/runner/work/local-console/local-console/linux/runner/CMakeLists.txt /usr/local/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /usr/local/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake /usr/local/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake /usr/local/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /usr/local/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /usr/local/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeNinjaFindMake.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake /usr/local/share/cmake-3.31/Modules/CMakeSystem.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-C.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-CXX.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-FindBinUtils.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU.cmake /usr/local/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake /usr/local/share/cmake-3.31/Modules/FetchContent.cmake /usr/local/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake /usr/local/share/cmake-3.31/Modules/FindPackageMessage.cmake /usr/local/share/cmake-3.31/Modules/FindPkgConfig.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/local/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Clang-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Clang-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux.cmake /usr/local/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/runner/work/local-console/local-console/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/audioplayers_linux/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/desktop_updater/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux/libserialport/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/jni/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever_linux/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/generated_config.cmake /home/runner/work/local-console/local-console/linux/flutter/generated_plugins.cmake /home/runner/work/local-console/local-console/linux/runner/CMakeLists.txt /usr/local/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /usr/local/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake /usr/local/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake /usr/local/share/cmake-3.31/Modules/CMakeFindJavaCommon.cmake /usr/local/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /usr/local/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /usr/local/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeNinjaFindMake.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake /usr/local/share/cmake-3.31/Modules/CMakePushCheckState.cmake /usr/local/share/cmake-3.31/Modules/CMakeSystem.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake /usr/local/share/cmake-3.31/Modules/CheckSourceCompiles.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-C.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-CXX.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-FindBinUtils.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU.cmake /usr/local/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake /usr/local/share/cmake-3.31/Modules/FetchContent.cmake /usr/local/share/cmake-3.31/Modules/FindJNI.cmake /usr/local/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake /usr/local/share/cmake-3.31/Modules/FindPackageMessage.cmake /usr/local/share/cmake-3.31/Modules/FindPkgConfig.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/local/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake /usr/local/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Clang-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Clang-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux.cmake /usr/local/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/runner/work/local-console/local-console/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/audioplayers_linux/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/desktop_updater/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flserial/src/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux/libserialport/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever_linux/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/generated_config.cmake /home/runner/work/local-console/local-console/linux/flutter/generated_plugins.cmake /home/runner/work/local-console/local-console/linux/runner/CMakeLists.txt /usr/local/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /usr/local/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake /usr/local/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake /usr/local/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /usr/local/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /usr/local/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeNinjaFindMake.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake /usr/local/share/cmake-3.31/Modules/CMakeSystem.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-C.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-CXX.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-FindBinUtils.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU.cmake /usr/local/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake /usr/local/share/cmake-3.31/Modules/FetchContent.cmake /usr/local/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake /usr/local/share/cmake-3.31/Modules/FindPackageMessage.cmake /usr/local/share/cmake-3.31/Modules/FindPkgConfig.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/local/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Clang-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Clang-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux.cmake /usr/local/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake: phony
+build /home/runner/work/local-console/local-console/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/audioplayers_linux/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/desktop_updater/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/flutter_libserialport/linux/libserialport/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/jni/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever_linux/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/runner/work/local-console/local-console/linux/flutter/ephemeral/generated_config.cmake /home/runner/work/local-console/local-console/linux/flutter/generated_plugins.cmake /home/runner/work/local-console/local-console/linux/runner/CMakeLists.txt /usr/local/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /usr/local/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake /usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake /usr/local/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake /usr/local/share/cmake-3.31/Modules/CMakeFindJavaCommon.cmake /usr/local/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /usr/local/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /usr/local/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeNinjaFindMake.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake /usr/local/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake /usr/local/share/cmake-3.31/Modules/CMakePushCheckState.cmake /usr/local/share/cmake-3.31/Modules/CMakeSystem.cmake.in /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake /usr/local/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake /usr/local/share/cmake-3.31/Modules/CheckSourceCompiles.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-C.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-CXX.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang-FindBinUtils.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Clang.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/GNU.cmake /usr/local/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/local/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake /usr/local/share/cmake-3.31/Modules/FetchContent.cmake /usr/local/share/cmake-3.31/Modules/FindJNI.cmake /usr/local/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake /usr/local/share/cmake-3.31/Modules/FindPackageMessage.cmake /usr/local/share/cmake-3.31/Modules/FindPkgConfig.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/local/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/local/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake /usr/local/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Linker/GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Clang-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Clang-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /usr/local/share/cmake-3.31/Modules/Platform/Linux.cmake /usr/local/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake: phony
 
 
 #############################################

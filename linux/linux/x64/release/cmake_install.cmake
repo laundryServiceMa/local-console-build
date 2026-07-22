@@ -174,14 +174,14 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib/libflserial.so")
+   "/home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib/libdartjni.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial/shared/libflserial.so")
+  file(INSTALL DESTINATION "/home/runner/work/local-console/local-console/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni/shared/libdartjni.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -235,7 +235,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flutter_libserialport/cmake_install.cmake")
   include("/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/screen_retriever_linux/cmake_install.cmake")
   include("/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/window_manager/cmake_install.cmake")
-  include("/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/flserial/cmake_install.cmake")
+  include("/home/runner/work/local-console/local-console/build/linux/x64/release/plugins/jni/cmake_install.cmake")
 
 endif()
 
