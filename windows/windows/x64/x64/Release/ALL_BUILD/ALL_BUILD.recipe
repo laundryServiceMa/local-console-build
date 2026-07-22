@@ -14,10 +14,10 @@
       <FullPath>D:\a\local-console\local-console\build\windows\x64\plugins\desktop_updater\Release\desktop_updater_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\a\local-console\local-console\build\windows\x64\plugins\flserial\shared\Release\flserial.dll</FullPath>
+      <FullPath>D:\a\local-console\local-console\build\windows\x64\plugins\flutter_libserialport\Release\flutter_libserialport_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\a\local-console\local-console\build\windows\x64\plugins\flutter_libserialport\Release\flutter_libserialport_plugin.dll</FullPath>
+      <FullPath>D:\a\local-console\local-console\build\windows\x64\plugins\jni\shared\Release\dartjni.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>D:\a\local-console\local-console\build\windows\x64\plugins\screen_retriever_windows\Release\screen_retriever_windows_plugin.dll</FullPath>
