@@ -127,7 +127,7 @@ events:
       The output was:
       0
       MSBuild version 18.8.2+ce25c0108 for .NET Framework
-      Build started 8/3/2026 9:23:44 PM.
+      Build started 8/3/2026 10:36:13 PM.
       
       Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -156,7 +156,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:04.23
+      Time Elapsed 00:00:04.40
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1928,8 +1928,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-kj83ir"
-      binary: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-kj83ir"
+      source: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-3j8nka"
+      binary: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-3j8nka"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1940,39 +1940,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-kj83ir'
+        Change Dir: 'D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-3j8nka'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2b4c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90b12.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.8.2+ce25c0108 for .NET Framework
-        Build started 8/3/2026 9:23:49 PM.
+        Build started 8/3/2026 10:36:18 PM.
         
-        Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-kj83ir\\cmTC_2b4c8.vcxproj" on node 1 (default targets).
+        Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-3j8nka\\cmTC_90b12.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-kj83ir\\Debug\\".
-          Creating directory "cmTC_2b4c8.dir\\Debug\\cmTC_2b4c8.tlog\\".
+          Creating directory "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-3j8nka\\Debug\\".
+          Creating directory "cmTC_90b12.dir\\Debug\\cmTC_90b12.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2b4c8.dir\\Debug\\cmTC_2b4c8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2b4c8.dir\\Debug\\cmTC_2b4c8.tlog\\unsuccessfulbuild".
+          Creating "cmTC_90b12.dir\\Debug\\cmTC_90b12.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_90b12.dir\\Debug\\cmTC_90b12.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2b4c8.dir\\Debug\\\\" /Fd"cmTC_2b4c8.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_90b12.dir\\Debug\\\\" /Fd"cmTC_90b12.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36252 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2b4c8.dir\\Debug\\\\" /Fd"cmTC_2b4c8.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_90b12.dir\\Debug\\\\" /Fd"cmTC_90b12.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-kj83ir\\Debug\\cmTC_2b4c8.exe" /INCREMENTAL /ILK:"cmTC_2b4c8.dir\\Debug\\cmTC_2b4c8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-kj83ir/Debug/cmTC_2b4c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-kj83ir/Debug/cmTC_2b4c8.lib" /MACHINE:X64  /machine:x64 cmTC_2b4c8.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_2b4c8.vcxproj -> D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-kj83ir\\Debug\\cmTC_2b4c8.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-3j8nka\\Debug\\cmTC_90b12.exe" /INCREMENTAL /ILK:"cmTC_90b12.dir\\Debug\\cmTC_90b12.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-3j8nka/Debug/cmTC_90b12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-3j8nka/Debug/cmTC_90b12.lib" /MACHINE:X64  /machine:x64 cmTC_90b12.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_90b12.vcxproj -> D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-3j8nka\\Debug\\cmTC_90b12.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2b4c8.dir\\Debug\\cmTC_2b4c8.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2b4c8.dir\\Debug\\cmTC_2b4c8.tlog\\cmTC_2b4c8.lastbuildstate".
-        Done Building Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-kj83ir\\cmTC_2b4c8.vcxproj" (default targets).
+          Deleting file "cmTC_90b12.dir\\Debug\\cmTC_90b12.tlog\\unsuccessfulbuild".
+          Touching "cmTC_90b12.dir\\Debug\\cmTC_90b12.tlog\\cmTC_90b12.lastbuildstate".
+        Done Building Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-3j8nka\\cmTC_90b12.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.81
+        Time Elapsed 00:00:00.76
         
       exitCode: 0
   -
@@ -2414,7 +2414,7 @@ events:
       The output was:
       0
       MSBuild version 18.8.2+ce25c0108 for .NET Framework
-      Build started 8/3/2026 9:23:54 PM.
+      Build started 8/3/2026 10:36:23 PM.
       
       Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\4.3.1-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -2443,7 +2443,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.89
+      Time Elapsed 00:00:00.88
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -2462,8 +2462,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2z5pfi"
-      binary: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2z5pfi"
+      source: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-d283ei"
+      binary: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-d283ei"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -2473,39 +2473,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2z5pfi'
+        Change Dir: 'D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-d283ei'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28a89.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_26a6c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.8.2+ce25c0108 for .NET Framework
-        Build started 8/3/2026 9:23:55 PM.
+        Build started 8/3/2026 10:36:25 PM.
         
-        Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2z5pfi\\cmTC_28a89.vcxproj" on node 1 (default targets).
+        Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-d283ei\\cmTC_26a6c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2z5pfi\\Debug\\".
-          Creating directory "cmTC_28a89.dir\\Debug\\cmTC_28a89.tlog\\".
+          Creating directory "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-d283ei\\Debug\\".
+          Creating directory "cmTC_26a6c.dir\\Debug\\cmTC_26a6c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_28a89.dir\\Debug\\cmTC_28a89.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_28a89.dir\\Debug\\cmTC_28a89.tlog\\unsuccessfulbuild".
+          Creating "cmTC_26a6c.dir\\Debug\\cmTC_26a6c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_26a6c.dir\\Debug\\cmTC_26a6c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_28a89.dir\\Debug\\\\" /Fd"cmTC_28a89.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_26a6c.dir\\Debug\\\\" /Fd"cmTC_26a6c.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36252 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_28a89.dir\\Debug\\\\" /Fd"cmTC_28a89.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_26a6c.dir\\Debug\\\\" /Fd"cmTC_26a6c.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2z5pfi\\Debug\\cmTC_28a89.exe" /INCREMENTAL /ILK:"cmTC_28a89.dir\\Debug\\cmTC_28a89.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2z5pfi/Debug/cmTC_28a89.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2z5pfi/Debug/cmTC_28a89.lib" /MACHINE:X64  /machine:x64 cmTC_28a89.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_28a89.vcxproj -> D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2z5pfi\\Debug\\cmTC_28a89.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-d283ei\\Debug\\cmTC_26a6c.exe" /INCREMENTAL /ILK:"cmTC_26a6c.dir\\Debug\\cmTC_26a6c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-d283ei/Debug/cmTC_26a6c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-d283ei/Debug/cmTC_26a6c.lib" /MACHINE:X64  /machine:x64 cmTC_26a6c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_26a6c.vcxproj -> D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-d283ei\\Debug\\cmTC_26a6c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_28a89.dir\\Debug\\cmTC_28a89.tlog\\unsuccessfulbuild".
-          Touching "cmTC_28a89.dir\\Debug\\cmTC_28a89.tlog\\cmTC_28a89.lastbuildstate".
-        Done Building Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2z5pfi\\cmTC_28a89.vcxproj" (default targets).
+          Deleting file "cmTC_26a6c.dir\\Debug\\cmTC_26a6c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_26a6c.dir\\Debug\\cmTC_26a6c.tlog\\cmTC_26a6c.lastbuildstate".
+        Done Building Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-d283ei\\cmTC_26a6c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.63
+        Time Elapsed 00:00:00.61
         
       exitCode: 0
   -
@@ -3103,8 +3103,8 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindJNI.cmake:590 (check_source_compiles)"
       - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:20 (find_package)"
     directories:
-      source: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-x584on"
-      binary: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-x584on"
+      source: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-lwbnrj"
+      binary: "D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-lwbnrj"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -3114,36 +3114,36 @@ events:
       variable: "JNI_INCLUDE_PATH2_OPTIONAL"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-x584on'
+        Change Dir: 'D:/a/local-console/local-console/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-lwbnrj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_42083.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fc8e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.8.2+ce25c0108 for .NET Framework
-        Build started 8/3/2026 9:23:56 PM.
+        Build started 8/3/2026 10:36:26 PM.
         
-        Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-x584on\\cmTC_42083.vcxproj" on node 1 (default targets).
+        Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-lwbnrj\\cmTC_fc8e3.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-x584on\\Debug\\".
-          Creating directory "cmTC_42083.dir\\Debug\\cmTC_42083.tlog\\".
+          Creating directory "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-lwbnrj\\Debug\\".
+          Creating directory "cmTC_fc8e3.dir\\Debug\\cmTC_fc8e3.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_42083.dir\\Debug\\cmTC_42083.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_42083.dir\\Debug\\cmTC_42083.tlog\\unsuccessfulbuild".
+          Creating "cmTC_fc8e3.dir\\Debug\\cmTC_fc8e3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fc8e3.dir\\Debug\\cmTC_fc8e3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\hostedtoolcache\\windows\\Java_Temurin-Hotspot_jdk\\17.0.19-10\\x64\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D JNI_INCLUDE_PATH2_OPTIONAL /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_42083.dir\\Debug\\\\" /Fd"cmTC_42083.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-x584on\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Enterprise\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\hostedtoolcache\\windows\\Java_Temurin-Hotspot_jdk\\17.0.19-10\\x64\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D JNI_INCLUDE_PATH2_OPTIONAL /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_fc8e3.dir\\Debug\\\\" /Fd"cmTC_fc8e3.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-lwbnrj\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36252 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\hostedtoolcache\\windows\\Java_Temurin-Hotspot_jdk\\17.0.19-10\\x64\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D JNI_INCLUDE_PATH2_OPTIONAL /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_42083.dir\\Debug\\\\" /Fd"cmTC_42083.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-x584on\\src.c"
+          cl /c /I"C:\\hostedtoolcache\\windows\\Java_Temurin-Hotspot_jdk\\17.0.19-10\\x64\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D JNI_INCLUDE_PATH2_OPTIONAL /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_fc8e3.dir\\Debug\\\\" /Fd"cmTC_fc8e3.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-lwbnrj\\src.c"
           src.c
-        C:\\hostedtoolcache\\windows\\Java_Temurin-Hotspot_jdk\\17.0.19-10\\x64\\include\\jni.h(45,10): error C1083: Cannot open include file: 'jni_md.h': No such file or directory [D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-x584on\\cmTC_42083.vcxproj]
+        C:\\hostedtoolcache\\windows\\Java_Temurin-Hotspot_jdk\\17.0.19-10\\x64\\include\\jni.h(45,10): error C1083: Cannot open include file: 'jni_md.h': No such file or directory [D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-lwbnrj\\cmTC_fc8e3.vcxproj]
           (compiling source file 'src.c')
           
-        Done Building Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-x584on\\cmTC_42083.vcxproj" (default targets) -- FAILED.
+        Done Building Project "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-lwbnrj\\cmTC_fc8e3.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-x584on\\cmTC_42083.vcxproj" (default target) (1) ->
+        "D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-lwbnrj\\cmTC_fc8e3.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\hostedtoolcache\\windows\\Java_Temurin-Hotspot_jdk\\17.0.19-10\\x64\\include\\jni.h(45,10): error C1083: Cannot open include file: 'jni_md.h': No such file or directory [D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-x584on\\cmTC_42083.vcxproj]
+          C:\\hostedtoolcache\\windows\\Java_Temurin-Hotspot_jdk\\17.0.19-10\\x64\\include\\jni.h(45,10): error C1083: Cannot open include file: 'jni_md.h': No such file or directory [D:\\a\\local-console\\local-console\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-lwbnrj\\cmTC_fc8e3.vcxproj]
         
             0 Warning(s)
             1 Error(s)
